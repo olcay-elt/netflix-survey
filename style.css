@@ -1,0 +1,92 @@
+body {
+    background-image: url("./background_image.jpg");
+    color: white;
+}
+
+#container {
+
+    background-color: rgba(29, 28, 28, 0.4);
+    width: 40%;
+    margin: auto;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 2500;
+
+}
+
+span {
+    color: rgb(255, 0, 0);
+
+}
+
+.first,
+.second {
+    font-size: larger;
+}
+
+.first {
+    color: white;
+}
+
+#title,
+#info {
+    text-align: center;
+}
+
+form {
+    background-color: rgba(29, 28, 28, 0.7);
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    line-height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.gender,
+.movie {
+    line-height: 20px;
+}
+
+#name,
+#age,
+#email,
+#content,
+#feedback {
+
+    font-size: 14pt;
+    height: 40px;
+    width: 80%;
+
+}
+
+.button-2 {
+    padding: 10px 40px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.button-2:hover {
+    background-color: white;
+    color: red;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+}
